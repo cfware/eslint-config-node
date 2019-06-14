@@ -1,0 +1,40 @@
+{
+	"name": "@cfware/eslint-config-node",
+	"version": "0.1.0",
+	"description": "ESLint configuration for scripts to be loaded by node.js",
+	"scripts": {
+		"release": "standard-version --sign",
+		"test": "xo"
+	},
+	"engines": {
+		"node": ">=12"
+	},
+	"author": "Corey Farrell",
+	"license": "MIT",
+	"keywords": [
+		"xo"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cfware/eslint-config-node.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cfware/eslint-config-node/issues"
+	},
+	"homepage": "https://github.com/cfware/eslint-config-node#readme",
+	"devDependencies": {
+		"@cfware/eslint-config-node": "file:.",
+		"standard-version": "^6.0.1",
+		"xo": "^0.24.0"
+	},
+	"peerDependencies": {
+		"eslint": ">=5"
+	},
+	"dependencies": {
+		"babel-eslint": "^10.0.1",
+		"eslint-plugin-lit": "^1.0.0"
+	},
+	"xo": {
+		"extends": "@cfware/eslint-config-node"
+	}
+}
