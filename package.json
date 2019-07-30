@@ -24,7 +24,7 @@
 	"homepage": "https://github.com/cfware/eslint-config-node#readme",
 	"devDependencies": {
 		"@cfware/eslint-config-node": "file:.",
-		"standard-version": "^6.0.1",
+		"standard-version": "^7.0.0",
 		"xo": "^0.24.0"
 	},
 	"peerDependencies": {
