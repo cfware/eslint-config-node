@@ -16,6 +16,12 @@ module.exports = {
 				ignorePackages: true
 			}
 		],
+		'import/no-useless-path-segments': [
+			'error',
+			{
+				noUselessIndex: false
+			}
+		],
 		'lines-between-class-members': [
 			'error',
 			'always',
