@@ -25,7 +25,7 @@
 	"devDependencies": {
 		"@cfware/eslint-config-node": "file:.",
 		"standard-version": "^7.0.0",
-		"xo": "^0.25.3"
+		"xo": "^0.26.0"
 	},
 	"peerDependencies": {
 		"eslint": ">=5"
